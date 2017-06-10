@@ -1,0 +1,98 @@
+body {
+  background-color: white;
+}
+
+button {
+  border: 10px solid #000;
+  cursor: pointer;
+  width: 300px;
+  height: 300px;
+  margin: 0 -2px;
+  outline: none;
+  padding: 0;
+}
+
+section {
+  margin: 0 auto;
+  position: relative;
+  width: 620px;
+}
+
+section.blocked {
+  pointer-events: none;
+}
+
+.correct {
+  background-image: url('../images/kakapo.gif');
+}
+
+.game-ended {
+  background-image: url('../images/game-over.gif');
+}
+
+h1 {
+  font-family: 'Righteough', cursive;
+  font-size: 100px;
+  text-align: center;
+  margin: 25px;
+  color: black;
+}
+
+#counter {
+  background: #000;
+  border-radius: 50%;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: Arial;
+  font-size: 100px;
+  line-height: 200px;
+  height: 200px;
+  width: 200px;
+  margin-top: -100px;
+  margin-left: -108px;
+  position: absolute;
+  left: 50%;
+  text-align: center;
+  top: 50%;
+}
+
+
+#green {
+  border-top-left-radius: 100%;
+  background: rgba(4, 255, 4, 0.7);
+}
+#green:hover,
+#green.lighton {
+  background: rgba(4, 255, 4, 1.5);
+}
+
+
+#red {
+  border-top-right-radius: 100%;
+  background: rgba(247, 13, 53, 0.7);
+}
+
+#red:hover,
+#red.lighton  {
+  background: rgba(247, 13, 53, 1.5);
+}
+
+#yellow {
+  border-bottom-left-radius: 100%;
+  background: rgba(249, 200, 14, 0.7);
+}
+
+#yellow:hover,
+#yellow.lighton  {
+  background: rgba(249, 200, 14, 1.5);
+}
+
+#blue {
+  border-bottom-right-radius: 100%;
+  background: rgba(33, 118, 255, 0.7);
+}
+
+#blue:hover,
+#blue.lighton  {
+  background: rgba(33, 118, 255, 1.5);
+}
